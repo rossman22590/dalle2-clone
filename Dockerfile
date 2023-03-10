@@ -10,11 +10,9 @@ COPY . /app
 # Install any dependencies
 RUN npm install
 
-# Set the NODE_ENV environment variable to 'production' for a deployed version
-ENV NODE_ENV production
 
 # Expose port 3000
 EXPOSE 3000
 
 # Run npm start for a deployed version, or npm run dev for a development version
-CMD [ "npm", "start" ]
+CMD [ "npm", "dev" ]
