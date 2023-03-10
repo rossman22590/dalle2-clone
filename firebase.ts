@@ -5,13 +5,13 @@ import { getFirestore } from "firebase/firestore"
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCU2vr9jkUs6pEQPSN71HfsZ77pB_YLFTo",
-  authDomain: "instaclone-2f2b1.firebaseapp.com",
-  projectId: "instaclone-2f2b1",
-  storageBucket: "instaclone-2f2b1.appspot.com",
-  messagingSenderId: "859949651545",
-  appId: "1:859949651545:web:f831abdc1af27154468348"
-  };
+  apiKey: "AIzaSyClPDV8a2aCeD_CQ35M61TC2fkVh08o8rQ",
+  authDomain: "dalle-db5f5.firebaseapp.com",
+  projectId: "dalle-db5f5",
+  storageBucket: "dalle-db5f5.appspot.com",
+  messagingSenderId: "956559469362",
+  appId: "1:956559469362:web:116df0fff92d01bd3e852b",
+};
 
 // Initialize Firebase
 const app = getApps().length ? getApp() : initializeApp(firebaseConfig)
