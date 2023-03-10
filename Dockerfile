@@ -1,5 +1,5 @@
 # Use an official Node.js runtime as a parent image
-FROM node:14
+FROM node:18
 
 # Set the working directory to /app
 WORKDIR /app
@@ -15,4 +15,4 @@ RUN npm install
 EXPOSE 3000
 
 # Run npm start for a deployed version, or npm run dev for a development version
-CMD [ "npm", "dev" ]
+CMD [ "npm", "start" ]
